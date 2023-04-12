@@ -5,6 +5,16 @@ plugins {
 group = 'manfred.end'
 version = '1.0-SNAPSHOT'
 
+
+println getAllprojects()
+println getRootProject()
+println getRootDir()
+println getBuildDir()
+println getParent()
+
+
+
+
 repositories {
     maven { url 'https://maven.aliyun.com/repository/public/' }
     mavenCentral()
@@ -21,3 +31,4 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
